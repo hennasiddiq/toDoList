@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1802B10722DCE310009A449A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802B10622DCE310009A449A /* AppDelegate.swift */; };
-		1802B10922DCE310009A449A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802B10822DCE310009A449A /* ViewController.swift */; };
 		1802B10C22DCE310009A449A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1802B10A22DCE310009A449A /* Main.storyboard */; };
 		1802B10F22DCE310009A449A /* toDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1802B10D22DCE310009A449A /* toDoList.xcdatamodeld */; };
 		1802B11122DCE312009A449A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1802B11022DCE312009A449A /* Assets.xcassets */; };
 		1802B11422DCE312009A449A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1802B11222DCE312009A449A /* LaunchScreen.storyboard */; };
+		1802B11C22DCE63E009A449A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802B11B22DCE63E009A449A /* TableViewController.swift */; };
+		1802B11E22DCE72E009A449A /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802B11D22DCE72E009A449A /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1802B10322DCE310009A449A /* toDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1802B10622DCE310009A449A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1802B10822DCE310009A449A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1802B10B22DCE310009A449A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1802B10E22DCE310009A449A /* toDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = toDoList.xcdatamodel; sourceTree = "<group>"; };
 		1802B11022DCE312009A449A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1802B11322DCE312009A449A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1802B11522DCE312009A449A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1802B11B22DCE63E009A449A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1802B11D22DCE72E009A449A /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				1802B10622DCE310009A449A /* AppDelegate.swift */,
-				1802B10822DCE310009A449A /* ViewController.swift */,
 				1802B10A22DCE310009A449A /* Main.storyboard */,
+				1802B11D22DCE72E009A449A /* ToDo.swift */,
+				1802B11B22DCE63E009A449A /* TableViewController.swift */,
 				1802B11022DCE312009A449A /* Assets.xcassets */,
 				1802B11222DCE312009A449A /* LaunchScreen.storyboard */,
 				1802B11522DCE312009A449A /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1802B10922DCE310009A449A /* ViewController.swift in Sources */,
 				1802B10F22DCE310009A449A /* toDoList.xcdatamodeld in Sources */,
+				1802B11C22DCE63E009A449A /* TableViewController.swift in Sources */,
 				1802B10722DCE310009A449A /* AppDelegate.swift in Sources */,
+				1802B11E22DCE72E009A449A /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
